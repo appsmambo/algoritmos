@@ -1,4 +1,4 @@
-﻿Proceso test_vocacional
+Proceso test_vocacional
 	Definir nombre Como Caracter
 	Definir carrera Como Entero
 	Escribir 'La UTP te da la bienvenida.'
@@ -41,5 +41,8 @@
 				Escribir "Elige bien mascota."
 		FinSegun
 	Fin Si
+	
+
+
 	
 FinProceso
