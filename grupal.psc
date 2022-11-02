@@ -1,9 +1,21 @@
-Proceso test_vocacional
+﻿Proceso test_vocacional
 	Definir nombre Como Caracter
 	Definir carrera Como Entero
 	Escribir 'La UTP te da la bienvenida.'
 	Escribir 'Ingresa tu nombre para iniciar el test.'
-	Leer nombre
+	Escribir " Registrate para continuar"
+	Escribir "Escribe ok, para continuar"
+	Leer caracter; 
+	
+	Escribir "Escribe tu Nombre"
+	Leer Nombre; 
+	Escribir "Escribe tu Apellido"
+	Leer Apellido;
+	Escribir "Coloca tu edad";
+	Leer Edad; 
+	
+	Escribir "El nombre del postulante es ", Apellido, " " Nombre;
+	Escribir "Edad del postulante: ", Edad," ", "años"
 	Escribir '¡Hola ',nombre,'! Para saber qué carrera eleguir te haremos unas preguntas.'
 	Escribir 'Debes elegir una opción la cual se acerque a tus gustos e intereses.'
 	Escribir '1. ¿Deseas resolver problemas contables, financieros, armar presupuestos y contabilidad en las empresas?'
@@ -29,4 +41,3 @@ Proceso test_vocacional
 				Escribir "Elige bien mascota."
 		FinSegun
 	Fin Si
-FinProceso
