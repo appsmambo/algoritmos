@@ -42,7 +42,7 @@ Proceso test_vocacional
 		FinSegun
 	Fin Si
 	
+	Escribir "Sigamos adelante Gaa "
 
 
-	
 FinProceso
